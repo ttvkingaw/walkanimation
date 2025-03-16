@@ -1,1 +1,42 @@
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+local llIlIlIlIlIlIlIlI = {function()end}
+local lIlIlIlIlIlIlIlIl = game:GetService("StarterGui")
+local IlIlIlIlIlIlIlIlI = game:GetService("Players")
+
+lIlIlIlIlIlIlIlIl:SetCore("SendNotification", {
+    Title = "MADE BY V0C0N1337",
+    Text = "Script Activated",
+    Duration = 3
+})
+
+local function IllIllIllIllI(IllIllIllIllIl)
+    return string.char(IllIllIllIllIl:byte(1,#IllIllIllIllIl))
+end
+
+local IlIlIlIlIlIlIlIlIl = function(IlIlIlIlIlIlIlIlIlI)
+    return string.byte(IlIlIlIlIlIlIlIlIlI,1,#IlIlIlIlIlIlIlIlIlI)
+end
+
+local IllIllIllIllIllI = IlIlIlIlIlIlIlIlI.LocalPlayer
+local IlIlIlIlIlIlIlIlIlIl = IllIllIllIllIllI.Character
+local IllIllIllIllIllIl = IlIlIlIlIlIlIlIlIlIl:FindFirstChild(IllIllIllIllI("\72\117\109\97\110\111\105\100"))
+
+local function IlIlIlIlIlIlIlIlIlIlI()
+    while wait() do
+        pcall(function()
+            IllIllIllIllIllIl:ChangeState(IllIllIllIllI("\70\97\108\108\105\110\103\68\111\119\110"))
+            wait(0.15)
+            IllIllIllIllIllIl:ChangeState(IllIllIllIllI("\71\101\116\116\105\110\103\85\112"))
+            IllIllIllIllIllIl:ChangeState(IllIllIllIllI("\82\117\110\110\105\110\103\78\111\80\104\121\115\105\99\115"))
+        end)
+    end
+end
+
+spawn(IlIlIlIlIlIlIlIlIlIlI)
+
+local garbage = [[
+    Encrypted using hardcore obfuscation
+    ]] .. string.rep("\32", 2048)
 
